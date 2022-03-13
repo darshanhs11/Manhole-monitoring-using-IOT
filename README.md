@@ -101,7 +101,7 @@ The technology used in this project is Internet of Things (IoT).This manhole mon
 
 Blynk platform powers low-batch manufacturers of smart homeproducts,complex HVAC systems, agricultural equipment,andeveryone in between.Nodemcu uses blynk software as aninterface to connect the system to the end controller using anapp,web browser,etc. 
 
-## IMPLEMENTATIONA.
+## IMPLEMENTATION.
 - Interfacing of sensors with NodemcuConnections of all the sensors with Nodemcu are the same.Sensors Vcc pin is connected to the 3V pin of the Nodemcu.The GND pin of the sensor is connected to the GND pin of theNodemcu. And the output pins of the sensors are connected tothe analog GPIO pins(0-16) of the Nodemcu.
 - Interfacing of Nodemcu with GSM moduleIn this, we have assigned D1 as the TX pin in the Nodemcu andD2 as the RX pin for the same.Thus creating the connectionbetween the GSM and Nodemcu serially
 - Nodemcu related codes
@@ -141,7 +141,7 @@ sending the SMS,through emails which was also a
 drawback,by monitoring the system through web browser and
 apps.This is the main advantage of our model as we cancommunicate through all these above mentioned methods sothere is no problem of getting the right information to therespective authorities.
 
-## AKNOWLDGEMENT
+## AKNOWLEDGEMENT
 We would like to express our special thanks to Prof.Chandrashekar Murthy.B.N, for their able guidance and supportin completing our project, for the time spent proofreading andcorrecting our mistakes. Also, we would like to extend ourgratitude to Dr.M N Jayaram, Head of the Department,Electronics and Communication, JSS S&TU, Mysuru forproviding us with all the facility that was required.
 ## FUTURE SCOPE
 Our project can be implemented used in smart cities likeDholera which a newly built Smart City by the governmentwhere the city is fully covered with the WiFi all-over.This isvery useful in manhole monitoring in the Smart Cities by thecontrol and reparing the system at the earliest.Water flowsensor can also be implemented in the future so that theblockage detection becomes efficient.
